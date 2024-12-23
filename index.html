@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Resume</title>
+</head>
+<body>
+    <div class="resume">
+        <h1>Ayesha Gull</h1>
+        <h4>Associate Engineer CIT</h4>
+        <p>Email: gullayesha245@example.com</p>
+        <p>Address: Karachi</p>
+        <p>Contact: 0301-0000000</p>
+        <p>LinkedIn: www.linkedin.com/in/ayesha-g-046b8322a</p>
+        <h2>Academic Qualifications</h2>
+        <p>• Student of Governor Initiative Of AI, Metaverse and Web 3.0 (GIAIC 2024) <br>
+           • Diploma of Associate Engineer in Computer Information Technology (DAE – CIT) from Saifee Edie Zahabi Institute of Science and Technology. <br>
+           • Matric in Science Group from GBSS 11-C/3 Sir Syed Town Karachi (2021). <br>
+        </p>
+        <h2>Employment Experience</h2>
+        <p>• Participated in Fractional Inactivated Poliovirus Vaccine (FIPV) campaign (2k24). <br>
+           • Contributed to the successful rollout of the Typhoid Conjugate Vaccine (TCV) and Deworming campaign. <br>
+           • Computer Teacher in Oxford Smart School. <br>
+           • Computer Lab Attendant <br>
+           • Subject Teacher in coaching centre <br>
+           • Interviewer in BIS program. <br>
+        </p>
+        <h2>Skills</h2>
+        <p>• Vaccination Expertise <br>
+           • Data Collection and Analysis <br>
+           • Emergency Response <br>
+           • Campaign Management <br>
+           • Health Promotion <br>
+           • Teamwork – Leadership – Punctuality <br>
+           • Verbal and Written Communication <br>
+        </p>
+        <h2>Field Expertise</h2>
+        <p>• Networking <br>
+           • MS Office <br>
+           • Computer Languages (C++, Java) <br>
+           • Graphic Designing <br>
+           • Web Development (HTML, CSS) <br>
+           • Learning TypeScript and JS and Node.js
+        </p>
+    </div>
+    <form id="resumeForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="contact" placeholder="Contact" required>
+        <input type="url" id="linkedin" placeholder="LinkedIn" required>
+        <textarea id="academicQualifications" placeholder="Academic Qualifications" required></textarea>
+        <textarea id="employmentExperience" placeholder="Employment Experience" required></textarea>
+        <textarea id="skills" placeholder="Skills" required></textarea>
+        <textarea id="fieldExpertise" placeholder="Field Expertise" required></textarea>
+        <button type="submit">Generate Resume</button>
+    </form>
+    <div class="generatedResume" id="resume"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
